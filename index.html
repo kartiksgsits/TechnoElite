@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <TITLE>TECHNOELITE</TITLE>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f3f458595e.js" crossorigin="anonymous"></script>
+</HEAD>
+<BODY>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="register.html">REGISTRATION</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Welcome to Technoelite Club</h1>
+    <p>We provide you a platform to present your skills in front of others and also to evolve your Technical and Non-Technical skills.</p>
+    <a href="" class="hero-btn">Visit Us To know More</a>
+</div>
+</section>
+    
+<!------Events-------->
+
+
+<section class ="events">
+    <h1>Technical and Non-Technical Events organized by us in 2K19.</h1>
+    <p></p>
+    <div class="row">
+        <div class="events-col">
+            <h3>CODE RELAY</h3>
+            <p>Description about CODE RELAY</p>
+        </div>
+        <div class="events-col">
+            <h3>ARENA</h3>
+            <p>Description about ARENA</p>
+        </div>
+        <div class="events-col">
+            <h3>BLINDSPOT</h3>
+            <p>Description about BLINDSPOT</p>
+        </div>
+        <div class="events-col">
+            <h3>TRACAMBLE</h3>
+            <p>Description about TRACAMBLE</p>
+        </div>
+        <div class="events-col">
+            <h3>FRAMATICS</h3>
+            <p>Description about FRAMATICS</p>
+        </div>
+        <div class="events-col">
+            <h3>SNAPMURAL</h3>
+            <p>Description about SNAPMURAL</p>
+        </div>
+    </div>
+</section>    
+
+<!-------testimonials------->
+<section class="testimonials">
+    <h1>What Our Participant Says</h1>
+    <p></p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user1.png">
+            <div>
+                <p>TechnoElite club provides me a platform
+                where i got the golden opportunity to 
+                present my hidden skills in front of others.</p>
+                <h3>Participant 1</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user2.png">
+            <div>
+                <p>TechnoElite club provides me a platform
+                where i got the golden opportunity to 
+                present my hidden skills in front of others.</p>
+                <h3>Participant 2</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+<!-------Call To Action------->
+    
+<section class="cta">
+    <h1>Register online for participating in various<br>
+    Technical and Non-Technical Events</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+    
+<!-----Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>About TechnoElite Club</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/te.technoelite/">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/te.technoelite/">
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/technoelite">
+        <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+</section>    
+    
+<!-----------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</BODY>    
+</HTML>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <TITLE>TECHNOELITE</TITLE>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f3f458595e.js" crossorigin="anonymous"></script>
+</HEAD>
+<BODY>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="register.html">REGISTRATION</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+ 
+</section>
+    
+<!------About Us------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are here to incite<br>your talent so that you<br>can evolve your Technical and Non-Technical skills</h1>
+            <p>Description</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/clubposter.png">
+        </div>
+    </div>
+    
+</section>
+    
+    
+<!-----Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>About TechnoElite Club</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/te.technoelite/">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/te.technoelite/">
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/technoelite">
+        <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+</section>    
+    
+<!-----------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</BODY>    
+</HTML>
