@@ -162,6 +162,9 @@ h3{
     .row{
         flex-direction: column;
     }
+     .events img{
+        width:80%;
+    }
 }
 
 /*------testimonials------*/
